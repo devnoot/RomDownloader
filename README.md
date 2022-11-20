@@ -1,4 +1,4 @@
-# RomDownloader
+# RomScraper
 
 Scrape roms from archive.org
 
