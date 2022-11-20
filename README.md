@@ -10,9 +10,9 @@ Scrape roms from archive.org
 
 ## Usage
 
-This will scrape the roms to `$HOME/Downloads/roms`. Make sure this directory esists. You will also want to make sure the directories `$HOME/Downloads/roms/{gc,psx}` also exist. 
+This will scrape the roms to `$HOME/Downloads/roms`. To set a different download directory, pass the `ROMS_DIR` environment variable to the script. 
 
-`python main.py`
+`python main.py` or `ROMS_DIR=~/Roms python main.py`
 
 ## Implemented rom sets
 

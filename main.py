@@ -12,10 +12,14 @@ import os
 gc_ext = '.iso'
 psx_ext = '.chd'
 
-# get the user home directory
-home = os.path.expanduser('~')
-# get the download directory
-dest = os.path.join(home, 'Downloads', 'roms')
+# set the destination directory. If the user supplied ROMS_DIR in the environment, use that.
+# Otherwise, use ~/Downloads/roms
+dest = os.environ.get('ROMS_DIR', os.path.join(
+    os.path.expanduser('~'), 'Downloads', 'roms'))
+
+# create the destination directory if it doesn't exist
+if not os.path.exists(dest):
+    os.makedirs(dest)
 
 # th# the urls to scrape
 urls = {
@@ -32,6 +36,11 @@ urls = {
 # iterate over the urls
 for system, urls in urls.items():
     print(f'Processing {system}...')
+    # create the system directory if it doesn't exist
+    system_dir = os.path.join(dest, system)
+    if not os.path.exists(system_dir):
+        os.makedirs(system_dir)
+    # iterate over the urls
     for url in urls:
         print(f'  {url}')
         # get the html
