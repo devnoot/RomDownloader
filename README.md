@@ -16,9 +16,9 @@ This will scrape the roms to `$HOME/Downloads/roms`. Make sure this directory es
 
 ## Implemented rom sets
 
-- [ x ] Gamecube
+- [x] Gamecube
 
-- [ x ] Playstation 
+- [x] Playstation 
 
 - [ ] Nintendo
 
