@@ -30,6 +30,42 @@ urls = {
     ],
     'psx': [
         'https://archive.org/download/chd_psx/CHD-PSX-USA/'
+    ],
+    'nes': [
+        'https://archive.org/download/nointro.nes'
+    ],
+    'snes': [
+        'https://archive.org/download/nointro.snes'
+    ],
+    'vb': [
+        'https://archive.org/download/nointro.vb'
+    ],
+    'gb': [
+        'https://archive.org/download/nointro.gb'
+    ],
+    'gbc': [
+        'https://archive.org/download/nointro.gbc'
+    ],
+    'gba': [
+        'https://archive.org/download/nointro.gba'
+    ],
+    'n64': [
+        'https://archive.org/download/nointro.n64'
+    ],
+    'ms-mkiii': [
+        'https://archive.org/download/nointro.ms-mkiii'
+    ],
+    'md': [
+        'https://archive.org/download/nointro.md'
+    ],
+    'gg': [
+        'https://archive.org/download/nointro.gg'
+    ],
+    '32x': [
+        'https://archive.org/download/nointro.32x'
+    ],
+    'tg-16': [
+        'https://archive.org/download/nointro.tg-16'
     ]
 }
 
@@ -48,7 +84,7 @@ for system, urls in urls.items():
         # extract all hrefs that end with .iso
         for href in html.split('href="')[1:]:
             href = href.split('"')[0]
-            if href.endswith('.chd'):
+            if href.endswith('.chd') or href.endswith('.iso'):
                 download_url = f'{url}{href}'
                 print(f'    {download_url}')
                 # create the filename from the url
