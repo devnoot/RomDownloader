@@ -20,17 +20,19 @@ This will scrape the roms to `$HOME/Downloads/roms`. To set a different download
 
 - [x] Playstation 
 
-- [ ] Nintendo
+- [x] Nintendo
 
-- [ ] Super Nintendo 
+- [x] Super Nintendo 
 
-- [ ] Game Boy
+- [x] Virtual Boy
 
-- [ ] Game Boy Color
+- [x] Game Boy
 
-- [ ] Game Boy Advance
+- [x] Game Boy Color
 
-- [ ] Nintendo 64
+- [x] Game Boy Advance
+
+- [x] Nintendo 64
 
 - [ ] Wii
 
@@ -40,17 +42,19 @@ This will scrape the roms to `$HOME/Downloads/roms`. To set a different download
 
 - [ ] Playstation 3
 
-- [ ] Genesis
+- [x] Master System / Mark III
+
+- [x] Mega Drive / Genesis
+
+- [x] Game gear
+
+- [x] 32x
 
 - [ ] Saturn
 
-- [ ] Game Gear
-
 - [ ] Dreamcast
 
-- [ ] 32x
-
-- [ ] TurboGrafx
+- [x] TurboGrafx 16
 
 - [ ] Dos 
 
