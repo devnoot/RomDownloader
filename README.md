@@ -2,6 +2,9 @@
 
 Download roms from archive.org from the command line
 
+![Gif demonstrating romscraper in action](https://raw.githubusercontent.com/devnoot/RomScraper/main/romscraper.gif)
+
+
 ## Requirements
 
 ```
