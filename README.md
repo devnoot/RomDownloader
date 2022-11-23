@@ -1,16 +1,18 @@
 # RomDownloader
 
-Scrape roms from archive.org
+Download roms from archive.org from the command line
 
 ## Requirements
 
-`pip install requests`
-
-`pip install clint`
+```
+pip install requests
+pip install clint
+pip install prompt_toolkit
+```
 
 ## Usage
 
-This will scrape the roms to `$HOME/Downloads/roms`. To set a different download directory, pass the `ROMS_DIR` environment variable to the script. 
+This will download the roms to `$HOME/Downloads/roms`. To set a different download directory, pass the `ROMS_DIR` environment variable to the script. 
 
 `python main.py` or `ROMS_DIR=~/Roms python main.py`
 
