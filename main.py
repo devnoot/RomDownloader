@@ -110,7 +110,17 @@ def main():
     # prompt the user to select a game
     game_completer = WordCompleter(game_names)
     game_input = prompt(
-        'Enter a game (use tab for autocomplete): ', completer=game_completer)
+        'Enter a game, (a) to download all: ', completer=game_completer)
+
+    if game_input == 'a':
+        # download all games
+        for game in games:
+            system = game[0]
+            game_name = game[1]
+            url = game[2]
+            dest = create_system_dir(create_dest(), system)
+            download_file(f'{url}/{game_name}', game_name,
+                          os.path.join(dest, decode_url(game_name)))
 
     # print the game the user selected
     print(f'Getting game: {game_input}')
