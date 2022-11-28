@@ -42,5 +42,10 @@ config = {
     ],
     'tg-16': [
         'https://archive.org/download/nointro.tg-16'
+    ],
+    'psp': [
+        'https://archive.org/download/redump.psp',
+        'https://archive.org/download/redump.psp.p2',
+        'https://archive.org/download/redump.psp.p3'
     ]
 }

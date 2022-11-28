@@ -64,3 +64,5 @@ This will download the roms to `$HOME/Downloads/roms`. To set a different downlo
 - [ ] Dos 
 
 - [ ] Win 3.1 
+
+- [x] Playstation Portable
