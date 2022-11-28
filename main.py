@@ -13,10 +13,12 @@ from config import config
 
 
 def get_system_game_ext(system):
-    if system == 'gc' or system == 'psp':
+    if system == 'gc' or system == 'psp' or system == 'ps2':
         return '.zip'
     elif system == 'psx':
         return '.chd'
+    elif system == 'vita':
+        return '.rar'
     else:
         # these systems use .7z
         # nes, snes, n64, gb, gba, gbc, vb, tg-16
