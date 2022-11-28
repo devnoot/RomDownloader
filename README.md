@@ -43,9 +43,13 @@ This will download the roms to `$HOME/Downloads/roms`. To set a different downlo
 
 - [ ] WiiU
 
-- [ ] Playstation 2
+- [x] Playstation 2
 
 - [ ] Playstation 3
+
+- [x] Playstation Portable
+
+- [xX Playstation Vita
 
 - [x] Master System / Mark III
 
@@ -56,8 +60,6 @@ This will download the roms to `$HOME/Downloads/roms`. To set a different downlo
 - [x] 32x
 
 - [x] TurboGrafx 16
-
-- [x] Playstation Portable
 
 - [ ] Saturn
 
