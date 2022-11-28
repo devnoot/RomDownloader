@@ -13,7 +13,7 @@ from config import config
 
 
 def get_system_game_ext(system):
-    if system == 'gc':
+    if system == 'gc' or system == 'psp':
         return '.zip'
     elif system == 'psx':
         return '.chd'
