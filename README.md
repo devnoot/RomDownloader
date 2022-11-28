@@ -1,8 +1,8 @@
-# RomScraper
+# maelstrom 🌊
 
-Download roms from archive.org from the command line
+Select & Download roms from the command line
 
-![Gif demonstrating romscraper in action](https://raw.githubusercontent.com/devnoot/RomScraper/main/romscraper.gif)
+![Gif demonstrating maelstrom in action](https://raw.githubusercontent.com/devnoot/maelstrom/main/demo.gif)
 
 
 ## Requirements
@@ -55,14 +55,15 @@ This will download the roms to `$HOME/Downloads/roms`. To set a different downlo
 
 - [x] 32x
 
+- [x] TurboGrafx 16
+
+- [x] Playstation Portable
+
 - [ ] Saturn
 
 - [ ] Dreamcast
-
-- [x] TurboGrafx 16
 
 - [ ] Dos 
 
 - [ ] Win 3.1 
 
-- [x] Playstation Portable
