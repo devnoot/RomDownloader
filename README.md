@@ -49,7 +49,7 @@ This will download the roms to `$HOME/Downloads/roms`. To set a different downlo
 
 - [x] Playstation Portable
 
-- [xX Playstation Vita
+- [x] Playstation Vita
 
 - [x] Master System / Mark III
 
