@@ -1,21 +1,20 @@
 # maelstrom 🌊
 
-Select & Download roms from the command line
+Select & download roms from the command line
 
 ![Gif demonstrating maelstrom in action](https://raw.githubusercontent.com/devnoot/maelstrom/main/demo.gif)
 
 
-## Requirements
+## Quick Start
 
-```
-pip install requests
-pip install clint
-pip install prompt_toolkit
+```bash
+pip install -r requirements.txt
+python main.py
 ```
 
 ## Usage
 
-This will download the roms to `$HOME/Downloads/roms`. To set a different download directory, pass the `ROMS_DIR` environment variable to the script. 
+This will download the roms to `$HOME/Downloads/roms`. To set a different download directory, pass the `ROMS_DIR` environment variable to the script.
 
 `python main.py` or `ROMS_DIR=~/Roms python main.py`
 
@@ -23,11 +22,11 @@ This will download the roms to `$HOME/Downloads/roms`. To set a different downlo
 
 - [x] Gamecube
 
-- [x] Playstation 
+- [x] Playstation
 
 - [x] Nintendo
 
-- [x] Super Nintendo 
+- [x] Super Nintendo
 
 - [x] Virtual Boy
 
@@ -65,7 +64,7 @@ This will download the roms to `$HOME/Downloads/roms`. To set a different downlo
 
 - [ ] Dreamcast
 
-- [ ] Dos 
+- [ ] Dos
 
-- [ ] Win 3.1 
+- [ ] Win 3.1
 
