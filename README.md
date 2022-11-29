@@ -8,7 +8,7 @@ Select & download roms from the command line
 ## Quick Start
 
 ```bash
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 python main.py
 ```
 
